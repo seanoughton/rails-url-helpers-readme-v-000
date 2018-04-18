@@ -375,6 +375,7 @@ Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms)
 Started GET "/posts/1" for 127.0.0.1 at 2018-04-18 22:06:34 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+<<<<<<< HEAD
   [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
   Rendered posts/show.html.erb within layouts/application (4.6ms)
 Completed 200 OK in 288ms (Views: 247.6ms | ActiveRecord: 0.3ms)
@@ -417,3 +418,5 @@ Processing by PostsController#index as HTML
   Rendered posts/index.html.erb within layouts/application (1.7ms)
 Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
   [1m[35m (0.3ms)[0m  rollback transaction
+=======
+>>>>>>> 285cf1a69613c2c606624cc3049d2c8a1af75a77
